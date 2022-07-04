@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <div id="main" class="main">
+    <body>
+      <header id="header">
+        <nav id="nav-bar">
+          
+          <a class="nav-link" href="#acerca-de">Acerca de nostros</a>
+          <a class="nav-link" href="#paquetes">Paquetes</a>
+          <a class="nav-link" href="#contactos">Contactos</a>
+        </nav>
+        <img
+        class="img"
+        id="header-img"
+        src="https://na697.files.wordpress.com/2017/11/cropped-logo-10-11.png"
+        alt="Imagen de servicio de niñeras"
+        />
+      </header>
+      <h1 id="title" class="font"><b>The Nanny</b></h1>
+      <form>
+        <h2 id="subtitulo" class="font"><em>El mejor apoyo que mereces</em></h2>
+      </form>
+      
+      <section id="acerca-de" class="video">Conocenos</section>
+      <iframe
+        width="400"
+        height="200"
+        src="https://www.youtube.com/embed/X62UUd5nBIY"
+        id="video"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe
+      ><br />
+      <section id="paquetes">
+        <legend style="text-align: center"><u>Paquetes</u></legend>
+        <br />
+        <div id="p-diario" class="fullCard">
+          <h3>Paquete diario:</h3>
+          <div class="cardContent">
+            <div class="cardText">
+              <b>Incluye: </b>
+              <ul>
+                <li>Preparacion de desayuno, almuerzo y merienda.</li>
+                <li>Ayuda con los deberes escolares.</li>
+                <li>Ayudar con la limpieza de la casa.</li>
+                <li>Actividades recreativas.</li>
+                <button class="submit" id="eDiario" type="submit">
+                  <strong>Solicitar</strong>
+                </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="p-semanal" class="fullCard">
+          <h3>Paquete semanal:</h3>
+          <div class="cardContent">
+            <div class="cardText">
+              <b>Incluye: </b>
+              <ul>
+                <li>Planificación de dieta semanal.</li>
+                <li>Planificación de estrategias de estudio.</li>
+                <li>Horario de siestas.</li>
+                <li>Actividades recreativas.</li>
+                <li>Ayuda con la limpieza.</li>
+                <button class="submit" id="eSemanal" type="submit">
+                  <strong>Solicitar</strong>
+                </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="p-mensual" class="fullCard">
+          <h3>Paquete mensual:</h3>
+          <div class="cardContent">
+            <div class="cardText">
+              <b>Incluye: </b>
+              <ul>
+                <li>Planificación de dieta mensual.</li>
+                <li>Planificacion de estrategias de estudio.</li>
+                <li>Seguimiento de las actividades escolares.</li>
+                <li>Ayuda con la limpieza.</li>
+                <li>Salidas recreativas.</li>
+                <button
+                  class="submit"
+                  id="eMensual"
+                  type="submit"
+                  style="text-align: center"
+                >
+                  <strong>Solicitar</strong>
+                </button>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    <footer>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email"
+          >Para más información: <br />
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Ingrese su email"
+            required
+          /> </label
+        ><br />
+        <button class="submit" id="submit" type="submit">
+          <strong>Enviar</strong>
+        </button>
+      </form>
+      <section id="contactos">
+        <label for="contactos"><b>Contactos: </b></label><br />
+        <label for="admin"
+          ><b><u>Administración:</u></b> Jose Gonzáles (+514944636) </label
+        ><br />
+        <label for="gerencia"
+          ><b><u>Gerencia:</u></b> Maria Lopez (+513215469) </label
+        ><br />
+        <label for="rrhh"
+          ><b><u>Recursos Humanos:</u></b> Romina Campos (+512345422) </label
+        ><br />
+      </section>
+    </footer>
+  </div>
+</html>
